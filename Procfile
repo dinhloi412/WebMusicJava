@@ -1,1 +1,1 @@
-web: java -jar build/libs/rate-0.0.1-SNAPSHOT.jar
+web: java $JAVA_OPTS -jar target/pm03-0.0.1-SNAPSHOT.jar --port $PORT target/pm03-0.0.1-SNAPSHOT.jar
